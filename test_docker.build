@@ -1,0 +1,8 @@
+FROM ubuntu:16.04
+MAINTAIN zwvs zwvs@163.com
+
+ENV ENVIRONMENT DOCKER_PROD
+RUN cd /
+WORKDIR /src
+
+
